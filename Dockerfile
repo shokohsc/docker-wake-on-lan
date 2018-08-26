@@ -1,5 +1,5 @@
-FROM alpine:3.7
-MAINTAINER R0GGER
+FROM mcuadros/golang-arm:alpine
+MAINTAINER shokohsc
 
 # env variable
 ENV MAC 11:11:11:11:11:11
